@@ -14,6 +14,9 @@ $colordefault: #454360;
     -moz-transition: all $second ease-in-out;
         transition: all $second ease-in-out;
 }
+.shadow-dark {
+    box-shadow: 0px 5px 20px 0px rgba(69, 67, 96, 0.1);
+}
 header.desktop-header-1 {
 	color: #FFF;
 	border-right: solid 1px rgba(255,255,255,0.1);

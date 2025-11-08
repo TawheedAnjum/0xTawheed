@@ -23,6 +23,8 @@ $colordefault: #454360;
 html {
     margin: 0 !important;
     overflow: auto !important;
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
 }
 
 body {
