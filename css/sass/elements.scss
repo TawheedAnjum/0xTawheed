@@ -1,6 +1,19 @@
 /*=================================================================*/
 /*                     BOOTSTRAP ELEMENTS
 /*=================================================================*/
+$fonthead: "Rubik", sans-serif;
+$fontstack: "Rubik", sans-serif;
+$colordark: #2f4858;
+$coloryellow: #ffd15c;
+$colorpink: #f59e0b;
+$colorblue: #6c6ce5;
+$colordefault: #454360;
+
+@mixin transition($second) {
+  -webkit-transition: all $second ease-in-out;
+    -moz-transition: all $second ease-in-out;
+        transition: all $second ease-in-out;
+}
 .breadcrumb {
     font-size: 14px;
     padding: 0;

@@ -1,0 +1,73 @@
+/*=================================================================*/
+/*                     BUTTONS
+/*=================================================================*/
+.btn {
+  border-radius: 30px;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  overflow: hidden;
+  line-height: 1;
+  padding: 12px 32px;
+  position: relative;
+}
+.btn:focus {
+  box-shadow: none;
+}
+
+.btn:focus {
+  outline: 0;
+}
+@keyframes hvr-push {
+  50% {
+    transform: scale(0.8);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.btn-default {
+  color: #FFF;
+  background: #f59e0b;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.btn-default:hover {
+  color: #FFF;
+  animation-name: button-push;
+  animation-duration: 0.3s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}
+
+.btn-full {
+  text-align: center;
+  width: 100%;
+}
+
+.btn-group-lg > .btn, .btn-lg {
+  padding: 28px 30px;
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 0;
+}
+
+.btn-sm {
+  padding: 17px 16px;
+  font-size: 12px;
+  line-height: 0;
+}
+
+.btn-xs {
+  padding: 12px 10px;
+  font-size: 12px;
+  line-height: 0;
+}
+
+.btn.disabled, .btn:disabled {
+  opacity: 1;
+  cursor: not-allowed;
+}/*# sourceMappingURL=buttons.css.map */
